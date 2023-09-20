@@ -1,0 +1,10 @@
+name: ISMPlus
+version: '${project.version}'
+main: ToramaruShow.ISMPlus
+authors: [ ToramaruShow ]
+
+commands:
+  pssound:
+    description: HPCのカウントを1追加する
+    #     descriptionはhelpを表示したときに出る説明文
+    usage: use /<command> [count]
